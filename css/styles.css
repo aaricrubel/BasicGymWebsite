@@ -1,0 +1,45 @@
+/* CSS Reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(/img/bg.jpg);
+}
+.left {
+    border: 3px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 3px solid green;
+}
+.right {
+    border: 3px solid yellow;
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 12px;
+}
+.navbar {
+    display: inline-block;
+
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+    
+}
